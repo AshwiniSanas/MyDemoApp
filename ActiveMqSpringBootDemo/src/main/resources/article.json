@@ -1,0 +1,46 @@
+{
+
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  
+  "type": "object",
+  "properties": {
+  
+    "articleId": {
+      "type": "integer"
+    },
+    "shortTitle": {
+      "type": "string"
+      
+    },
+    "title": {
+      "type": "string"
+    },
+    "noOfPages": {
+      "type": "integer"
+    },
+    "authorName": {
+      "type": "string"
+    },
+    "authorEmailAddress": {
+      "type": "string"
+    },
+    "isActive": {
+      "type": "boolean"
+    },
+    "isPublished": {
+      "type": "boolean"
+    },
+  
+  "data": {
+     "message": "ID not found"
+    }
+
+  },
+  
+  "required": [
+    "articleId"
+  ]
+ 
+}
+
+
